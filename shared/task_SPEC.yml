@@ -1,0 +1,11 @@
+version: 1
+entity: task
+path: epics/<epic_id>/tasks/<task_id>.json
+fields:
+  id: string
+  epic_id: string
+  role: collector|detection|backend|qa
+  title: string
+  status: pending|in_progress|done
+  created_at: iso8601
+  updated_at: iso8601

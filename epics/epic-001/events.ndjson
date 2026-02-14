@@ -1,0 +1,12 @@
+{"ts": "2026-02-14T03:15:52+00:00", "type": "task_added", "task_id": "task-001", "role": "collector", "title": "\uc694\uad6c\uc0ac\ud56d \uc218\uc9d1"}
+{"ts": "2026-02-14T03:15:52+00:00", "type": "round_start", "round": 1}
+{"ts": "2026-02-14T03:15:52+00:00", "type": "task_started", "round": 1, "task_id": "task-001"}
+{"ts": "2026-02-14T03:15:52+00:00", "type": "task_done", "round": 1, "task_id": "task-001"}
+{"ts": "2026-02-14T03:15:52+00:00", "type": "round_end", "round": 1}
+{"ts": "2026-02-14T03:15:52+00:00", "type": "round_start", "round": 2}
+{"ts": "2026-02-14T03:15:52+00:00", "type": "idle", "round": 2}
+{"ts": "2026-02-14T03:15:52+00:00", "type": "round_end", "round": 2}
+{"ts": "2026-02-14T03:17:23+00:00", "type": "task_added", "task_id": "task-002", "role": "backend", "title": "\uad6c\ud604 \uc791\uc5c5 (backend)"}
+{"ts": "2026-02-14T03:17:23+00:00", "type": "task_added", "task_id": "task-003", "role": "collector", "title": "\uad6c\ud604 \uc791\uc5c5 (collector)"}
+{"ts": "2026-02-14T03:17:23+00:00", "type": "task_added", "task_id": "task-004", "role": "detection", "title": "\uad6c\ud604 \uc791\uc5c5 (detection)"}
+{"ts": "2026-02-14T03:17:23+00:00", "type": "task_added", "task_id": "task-005", "role": "qa", "title": "\uad6c\ud604 \uc791\uc5c5 (qa)"}
