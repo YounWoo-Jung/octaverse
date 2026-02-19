@@ -1,0 +1,7 @@
+{
+  "default_tool": "claude",
+  "role_tools": {},
+  "max_parallel_tasks": 4,
+  "task_timeout": 120,
+  "dist_dir": "dist"
+}
