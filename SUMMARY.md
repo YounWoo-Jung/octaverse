@@ -27,3 +27,20 @@
 ### Notes
 - daemon 로그는 `./octaverse.sh >> daemon.log 2>&1` 형태로 리다이렉트 가능하다.
 - 자동 push는 수행하지 않는다.
+
+## AI Work Summary (2026-03-05)
+
+### What was done
+- 저장소 루트에 `.gitignore`를 추가했다.
+- 런타임/생성 산출물(`logs/`, `state/`, `workspace/`, `*.log`)이 추적되지 않도록 설정했다.
+
+### Key Decisions
+- 현재 스크립트 동작에 영향 없는 최소 ignore 규칙만 추가했다.
+- 소스/설정 파일(`*.sh`, `conf/`, `require/`, `plans/`)은 ignore 대상에 포함하지 않았다.
+
+### Modified Files
+- .gitignore
+- SUMMARY.md
+
+### Notes
+- 기존 실행 방식(`./octaverse.sh >> daemon.log 2>&1`)과 호환되도록 `*.log`를 함께 무시한다.

@@ -1,0 +1,11 @@
+conf/
+logs/
+plans/
+require/
+state/
+workspace/
+*.log
+.DS_Store
+MEMORY.md
+MISTAKE.md
+SUMMARY.md
